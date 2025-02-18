@@ -17,7 +17,7 @@ def rssi_to_distance(rssi, tx_power):
 #  Trilateration Algorithm
 def trilateration(beacon_data):
     if len(beacon_data) < 3:
-        print("⚠️ Need at least 3 beacons for trilateration!")
+        print(" Need at least 3 beacons for trilateration!")
         return None
     
     A = []
@@ -67,7 +67,7 @@ async def scan():
     estimated_position = trilateration(beacon_data)
     
     if estimated_position is not None:
-        print(f"📍 Estimated Position: X={estimated_position[0]:.2f}, Y={estimated_position[1]:.2f}")
+        print(f" Estimated Position: X={estimated_position[0]:.2f}, Y={estimated_position[1]:.2f}")
 
 #  Run the scan function in a loop
 async def main():
