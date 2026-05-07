@@ -1,4 +1,4 @@
-# 🐔 Indoor BLE Tracking System
+#  Indoor BLE Tracking System
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi-red?logo=raspberry-pi)
@@ -10,7 +10,7 @@
 
 ---
 
-## 📸 Hardware Setup
+##  Hardware Setup
 
 <!-- ADD YOUR HARDWARE PHOTO HERE -->
 <!-- Drag and drop your photo of the RPi + OLED + breadboard setup -->
@@ -21,7 +21,7 @@
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -53,7 +53,7 @@
 
 ---
 
-## 📊 Key Results
+##  Key Results
 
 | Method | Avg Localization Error |
 |--------|----------------------|
@@ -73,7 +73,7 @@
 
 ---
 
-## 🔧 Hardware Requirements
+##  Hardware Requirements
 
 | Component | Model | Quantity |
 |-----------|-------|----------|
@@ -89,7 +89,7 @@
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -136,7 +136,7 @@ python software/final_ble_rfid_sensors.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Indoor-BLE-Tracking/
@@ -150,7 +150,7 @@ Indoor-BLE-Tracking/
 ├── software/
 │   ├── base_ble.py                    # Prototype v1 — basic BLE scan
 │   ├── ble_tracking.py                # Prototype v2 — trilateration added
-│   └── final_ble_rfid_sensors.py      # ✅ Production system — full integration
+│   └── final_ble_rfid_sensors.py      # Production system — full integration
 │
 ├── hardware/
 │   ├── nRF_ble_beacon_prog.ino        # nRF51822 beacon firmware (Arduino IDE)
@@ -166,7 +166,7 @@ Indoor-BLE-Tracking/
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 **Embedded / Hardware**
 - nRF51822 BLE SoC — beacon advertisement broadcasting
@@ -190,7 +190,7 @@ Indoor-BLE-Tracking/
 
 ---
 
-## 🔭 Future Work
+##  Future Work
 
 - **ML Integration** — k-NN or neural network for RSSI fingerprinting to replace trilateration
 - **Kalman Filter** — smooth noisy RSSI readings for better real-time tracking
@@ -200,32 +200,10 @@ Indoor-BLE-Tracking/
 
 ---
 
-## 📄 Research Paper
+##  Authors
 
-This project is backed by a peer-reviewed conference publication:
+- **Arsath Maideen F** — UG, Dept. of ECE
 
-```
-Indra Gandhi K, Badhrinath S, Arsath Maideen F, Mohammed Afsar MH, Muhammed Faarooq
-"Enhancing Indoor Positioning Accuracy in Poultry Farming Environment 
- Using Bluetooth Technology"
-International Research Journal of Advanced Science and Management (IRJASM)
-Volume 01, Issue 01, November 2023
-```
-
-📎 Full paper available in [`docs/paper.pdf`](docs/paper.pdf)
-
----
-
-## 👥 Authors
-
-- **Arsath Maideen F** — UG, Dept. of ECE, B.S. Abdur Rahman Crescent Institute of Science & Technology
-- **Mohammed Afsar MH** — UG, Dept. of ECE, B.S. Abdur Rahman Crescent Institute
-- **Muhammed Faarooq** — UG, Dept. of ECE, B.S. Abdur Rahman Crescent Institute
-- **Badhrinath S** — Embedded Software Developer, Denvik Technologies Pvt Ltd
-- **Dr. Indra Gandhi K** — Assistant Professor (Sel.Gr.), Dept. of ECE, B.S. Abdur Rahman Crescent Institute
-
----
-
-## 📜 License
+##  License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
