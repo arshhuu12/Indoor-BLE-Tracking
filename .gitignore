@@ -1,0 +1,58 @@
+# ─────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+
+# ─────────────────────────────────────────────
+# Runtime outputs (don't commit logs/data)
+# ─────────────────────────────────────────────
+*.log
+*.csv
+system.log
+tracking_log.csv
+
+# ─────────────────────────────────────────────
+# Arduino / IDE
+# ─────────────────────────────────────────────
+*.elf
+*.hex
+*.bin
+*.map
+build/
+
+# ─────────────────────────────────────────────
+# OS artifacts
+# ─────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────────────────────
+# Editors / IDEs
+# ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ─────────────────────────────────────────────
+# Secrets / credentials (never commit these)
+# ─────────────────────────────────────────────
+.env
+secrets.py

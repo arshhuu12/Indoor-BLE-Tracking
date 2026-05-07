@@ -1,0 +1,25 @@
+# Indoor BLE Tracking — Python Dependencies
+# Install with: pip install -r requirements.txt
+# Tested on Raspberry Pi 3B+ running Raspbian OS (Python 3.9+)
+
+# BLE scanning (async)
+bleak>=0.19.0,<1.0.0
+
+# Numerical computation (trilateration)
+numpy>=1.21.0
+
+# RFID reader (MFRC522)
+mfrc522>=0.0.7
+
+# Raspberry Pi GPIO
+RPi.GPIO>=0.7.1
+
+# Arduino UART serial communication
+pyserial>=3.5
+
+# OLED display (SSD1306 over I2C)
+adafruit-circuitpython-ssd1306>=2.12.0
+adafruit-blinka>=8.0.0
+
+# OLED image rendering
+Pillow>=9.0.0
