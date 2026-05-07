@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi-red?logo=raspberry-pi)
 ![Protocol](https://img.shields.io/badge/Protocol-BLE%20%7C%20RFID-green)
-![Published](https://img.shields.io/badge/Published-IRJASM%202023-orange)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 > Real-time indoor positioning and environmental monitoring for poultry farms using BLE trilateration, RFID zone detection, and IoT sensors — all fused on a Raspberry Pi.
