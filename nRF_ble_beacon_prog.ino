@@ -2,9 +2,6 @@
 
 /*
  * Final Year Project - BLE Beacon Sketch (nRF51822)
- * Author: [Your Name]
- * Date: [Today's Date]
- * 
  * Instructions:
  * - Use this code on all 3 beacons.
  * - Only change the UUID and beacon name.
