@@ -14,9 +14,6 @@ Usage:
   python software/final_ble_rfid_sensors.py
 
 Project: Indoor BLE Tracking for Poultry Farm
-Paper:   IRJASM Vol 01, Issue 01, November 2023
-Authors: Arsath Maideen F, Mohammed Afsar MH, Muhammed Faarooq,
-         Badhrinath S, Dr. Indra Gandhi K
 """
 
 import asyncio
